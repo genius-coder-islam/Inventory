@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\dell\\source\\repos\\inventory\\inventory.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\dell\\source\\repos\\inventory\\inventory.models\\customertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\customertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\dell\\source\\repos\\inventory\\inventory.models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\dell\\source\\repos\\inventory\\inventory.models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\dell\\source\\repos\\inventory\\inventory.models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Order.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\Order.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Order.cs",
-              "RelativeToolTip": "Inventory.Models\\Order.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA2wCwAAAAjAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\Product.cs",
+              "RelativeDocumentMoniker": "Inventory.Models\\Product.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\Product.cs",
+              "RelativeToolTip": "Inventory.Models\\Product.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T18:08:19.852Z",
+              "WhenOpened": "2026-03-15T16:56:24.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Item.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\Item.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Item.cs",
-              "RelativeToolTip": "Inventory.Models\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "CustomerType.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\CustomerType.cs",
+              "RelativeDocumentMoniker": "Inventory.Models\\CustomerType.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\CustomerType.cs",
+              "RelativeToolTip": "Inventory.Models\\CustomerType.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T18:02:52.115Z",
+              "WhenOpened": "2026-03-15T16:02:49.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Inventory.Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\AppUser.cs",
+              "RelativeToolTip": "Inventory.Models\\AppUser.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:01:15.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Brand.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\Brand.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Brand.cs",
-              "RelativeToolTip": "Inventory.Models\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Inventory.Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\Customer.cs",
+              "RelativeToolTip": "Inventory.Models\\Customer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T17:58:26.749Z",
+              "WhenOpened": "2026-03-15T15:55:57.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Inventory.Models\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\UserProfile.cs",
+              "RelativeToolTip": "Inventory.Models\\UserProfile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA9wBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T15:52:47.358Z",
               "EditorCaption": ""
             }
           ]

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj": {}
+    "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj": {
+    "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj",
         "projectName": "Inventory.Repository",
-        "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj",
-        "packagesPath": "C:\\Users\\ISLAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ISLAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

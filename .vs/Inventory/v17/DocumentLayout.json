@@ -1,105 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Inventory\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Bill.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Bill.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\Bill.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Bill.cs",
-              "RelativeToolTip": "Inventory.Models\\Bill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T18:39:42.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\AppUser.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\AppUser.cs",
-              "RelativeToolTip": "Inventory.Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T18:30:23.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Order.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\Order.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Order.cs",
-              "RelativeToolTip": "Inventory.Models\\Order.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T18:08:19.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Item.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\Item.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Item.cs",
-              "RelativeToolTip": "Inventory.Models\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T18:02:52.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Brand.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\Brand.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Brand.cs",
-              "RelativeToolTip": "Inventory.Models\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T17:58:26.749Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
