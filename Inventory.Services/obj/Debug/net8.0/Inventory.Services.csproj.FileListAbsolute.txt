@@ -1,0 +1,12 @@
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Services\bin\Debug\net8.0\Inventory.Services.deps.json
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Services\bin\Debug\net8.0\Inventory.Services.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Services\bin\Debug\net8.0\Inventory.Services.pdb
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Services\obj\Debug\net8.0\Inventory.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Services\obj\Debug\net8.0\Inventory.Services.AssemblyInfoInputs.cache
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Services\obj\Debug\net8.0\Inventory.Services.AssemblyInfo.cs
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Services\obj\Debug\net8.0\Inventory.Services.csproj.CoreCompileInputs.cache
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Services\obj\Debug\net8.0\Inventory.Services.sourcelink.json
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Services\obj\Debug\net8.0\Inventory.Services.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Services\obj\Debug\net8.0\refint\Inventory.Services.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Services\obj\Debug\net8.0\Inventory.Services.pdb
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Services\obj\Debug\net8.0\ref\Inventory.Services.dll

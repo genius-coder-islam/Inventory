@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Web\\Inventory.Web.csproj": {}
+    "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\Inventory.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Web\\Inventory.Web.csproj": {
+    "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Inventory.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Web\\Inventory.Web.csproj",
-        "projectName": "Inventory.Web",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Web\\Inventory.Web.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Web\\obj\\",
+        "projectUniqueName": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Inventory.Models.csproj",
+        "projectName": "Inventory.Models",
+        "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Inventory.Models.csproj",
+        "packagesPath": "C:\\Users\\ISLAM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ISLAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,6 +32,156 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj",
+        "projectName": "Inventory.Utility",
+        "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj",
+        "packagesPath": "C:\\Users\\ISLAM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ISLAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Inventory.Models.csproj": {
+                "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Inventory.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\Inventory.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\Inventory.Web.csproj",
+        "projectName": "Inventory.Web",
+        "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\Inventory.Web.csproj",
+        "packagesPath": "C:\\Users\\ISLAM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ISLAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj": {
+                "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

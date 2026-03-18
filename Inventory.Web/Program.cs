@@ -1,8 +1,10 @@
+using Inventory.Utility.HelperClass;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.Configure<SuperAdmin>(builder.Configuration.GetSection("SuperAdmin"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

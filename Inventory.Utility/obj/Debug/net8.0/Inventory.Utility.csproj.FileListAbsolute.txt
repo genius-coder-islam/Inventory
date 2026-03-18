@@ -1,0 +1,16 @@
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\bin\Debug\net8.0\Inventory.Utility.deps.json
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\bin\Debug\net8.0\Inventory.Utility.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\bin\Debug\net8.0\Inventory.Utility.pdb
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\bin\Debug\net8.0\Inventory.Models.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\bin\Debug\net8.0\Inventory.Models.pdb
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\obj\Debug\net8.0\Inventory.Utility.csproj.AssemblyReference.cache
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\obj\Debug\net8.0\Inventory.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\obj\Debug\net8.0\Inventory.Utility.AssemblyInfoInputs.cache
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\obj\Debug\net8.0\Inventory.Utility.AssemblyInfo.cs
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\obj\Debug\net8.0\Inventory.Utility.csproj.CoreCompileInputs.cache
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\obj\Debug\net8.0\Inventory.Utility.sourcelink.json
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\obj\Debug\net8.0\Inventor.C953C2B6.Up2Date
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\obj\Debug\net8.0\Inventory.Utility.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\obj\Debug\net8.0\refint\Inventory.Utility.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\obj\Debug\net8.0\Inventory.Utility.pdb
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Utility\obj\Debug\net8.0\ref\Inventory.Utility.dll

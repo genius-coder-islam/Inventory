@@ -1,30 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Inventory\\",
+  "WorkspaceRootPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\dell\\source\\repos\\inventory\\inventory.models\\measureunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\measureunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC84DF72-E540-4B50-B651-E3AEA266BCCE}|Inventory.Utility\\Inventory.Utility.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.utility\\roleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC84DF72-E540-4B50-B651-E3AEA266BCCE}|Inventory.Utility\\Inventory.Utility.csproj|solutionrelative:inventory.utility\\roleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\dell\\source\\repos\\inventory\\inventory.models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC84DF72-E540-4B50-B651-E3AEA266BCCE}|Inventory.Utility\\Inventory.Utility.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.utility\\iroleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC84DF72-E540-4B50-B651-E3AEA266BCCE}|Inventory.Utility\\Inventory.Utility.csproj|solutionrelative:inventory.utility\\iroleinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\dell\\source\\repos\\inventory\\inventory.models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC84DF72-E540-4B50-B651-E3AEA266BCCE}|Inventory.Utility\\Inventory.Utility.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.utility\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC84DF72-E540-4B50-B651-E3AEA266BCCE}|Inventory.Utility\\Inventory.Utility.csproj|solutionrelative:inventory.utility\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\dell\\source\\repos\\inventory\\inventory.models\\receivednote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\receivednote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC84DF72-E540-4B50-B651-E3AEA266BCCE}|Inventory.Utility\\Inventory.Utility.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.utility\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC84DF72-E540-4B50-B651-E3AEA266BCCE}|Inventory.Utility\\Inventory.Utility.csproj|solutionrelative:inventory.utility\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\dell\\source\\repos\\inventory\\inventory.models\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC84DF72-E540-4B50-B651-E3AEA266BCCE}|Inventory.Utility\\Inventory.Utility.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.utility\\topmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC84DF72-E540-4B50-B651-E3AEA266BCCE}|Inventory.Utility\\Inventory.Utility.csproj|solutionrelative:inventory.utility\\topmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\dell\\source\\repos\\inventory\\inventory.models\\numbersequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\numbersequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08CF3021-A08E-4A42-876A-19F01B17E013}|Inventory.Web\\Inventory.Web.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08CF3021-A08E-4A42-876A-19F01B17E013}|Inventory.Web\\Inventory.Web.csproj|solutionrelative:inventory.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08CF3021-A08E-4A42-876A-19F01B17E013}|Inventory.Web\\Inventory.Web.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08CF3021-A08E-4A42-876A-19F01B17E013}|Inventory.Web\\Inventory.Web.csproj|solutionrelative:inventory.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC84DF72-E540-4B50-B651-E3AEA266BCCE}|Inventory.Utility\\Inventory.Utility.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.utility\\helperclass\\superadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC84DF72-E540-4B50-B651-E3AEA266BCCE}|Inventory.Utility\\Inventory.Utility.csproj|solutionrelative:inventory.utility\\helperclass\\superadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|solutionrelative:inventory.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,80 +51,111 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MeasureUnit.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\MeasureUnit.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\MeasureUnit.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\MeasureUnit.cs",
-              "RelativeToolTip": "Inventory.Models\\MeasureUnit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Title": "RoleInventory.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\RoleInventory.cs",
+              "RelativeDocumentMoniker": "Inventory.Utility\\RoleInventory.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\RoleInventory.cs",
+              "RelativeToolTip": "Inventory.Utility\\RoleInventory.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvyAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T18:01:43.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReceivedNote.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\ReceivedNote.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\ReceivedNote.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\ReceivedNote.cs",
-              "RelativeToolTip": "Inventory.Models\\ReceivedNote.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:57:12.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Shipment.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\Shipment.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\Shipment.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\Shipment.cs",
-              "RelativeToolTip": "Inventory.Models\\Shipment.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:56:56.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NumberSequence.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\NumberSequence.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\NumberSequence.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\NumberSequence.cs",
-              "RelativeToolTip": "Inventory.Models\\NumberSequence.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:54:24.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Currency.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\Currency.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\Currency.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\Currency.cs",
-              "RelativeToolTip": "Inventory.Models\\Currency.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:53:09.88Z",
+              "WhenOpened": "2026-03-18T19:04:30.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Bank.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\Bank.cs",
-              "RelativeDocumentMoniker": "Inventory.Models\\Bank.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Inventory\\Inventory.Models\\Bank.cs",
-              "RelativeToolTip": "Inventory.Models\\Bank.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "IRoleInventory.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\IRoleInventory.cs",
+              "RelativeDocumentMoniker": "Inventory.Utility\\IRoleInventory.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\IRoleInventory.cs",
+              "RelativeToolTip": "Inventory.Utility\\IRoleInventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:51:54.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-18T19:02:55.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TopMenu.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\TopMenu.cs",
+              "RelativeDocumentMoniker": "Inventory.Utility\\TopMenu.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\TopMenu.cs",
+              "RelativeToolTip": "Inventory.Utility\\TopMenu.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvzMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T18:48:33.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Inventory.Utility\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\DbInitializer.cs",
+              "RelativeToolTip": "Inventory.Utility\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T18:46:49.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\IDbInitializer.cs",
+              "RelativeDocumentMoniker": "Inventory.Utility\\IDbInitializer.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\IDbInitializer.cs",
+              "RelativeToolTip": "Inventory.Utility\\IDbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T18:46:14.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Inventory.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\Program.cs",
+              "RelativeToolTip": "Inventory.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T18:40:49.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Inventory.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\appsettings.json",
+              "RelativeToolTip": "Inventory.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-18T18:37:55.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SuperAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\HelperClass\\SuperAdmin.cs",
+              "RelativeDocumentMoniker": "Inventory.Utility\\HelperClass\\SuperAdmin.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\HelperClass\\SuperAdmin.cs",
+              "RelativeToolTip": "Inventory.Utility\\HelperClass\\SuperAdmin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T18:36:16.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Inventory.Repository\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Inventory.Repository\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T18:13:56.266Z"
             }
           ]
         }
