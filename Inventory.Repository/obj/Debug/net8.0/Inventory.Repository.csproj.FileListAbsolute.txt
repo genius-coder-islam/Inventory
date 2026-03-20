@@ -2,7 +2,9 @@ C:\Users\ISLAM\source\repos\Inventory\Inventory.Repository\bin\Debug\net8.0\Inve
 C:\Users\ISLAM\source\repos\Inventory\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.dll
 C:\Users\ISLAM\source\repos\Inventory\Inventory.Repository\bin\Debug\net8.0\Inventory.Repository.pdb
 C:\Users\ISLAM\source\repos\Inventory\Inventory.Repository\bin\Debug\net8.0\Inventory.Models.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Repository\bin\Debug\net8.0\Inventory.ViewModel.dll
 C:\Users\ISLAM\source\repos\Inventory\Inventory.Repository\bin\Debug\net8.0\Inventory.Models.pdb
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Repository\bin\Debug\net8.0\Inventory.ViewModel.pdb
 C:\Users\ISLAM\source\repos\Inventory\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.csproj.AssemblyReference.cache
 C:\Users\ISLAM\source\repos\Inventory\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ISLAM\source\repos\Inventory\Inventory.Repository\obj\Debug\net8.0\Inventory.Repository.AssemblyInfoInputs.cache

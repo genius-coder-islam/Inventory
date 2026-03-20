@@ -9,7 +9,6 @@ namespace Inventory.Models
 {
     public class Customer
     {
-
         public int CustomerId { get; set; }
         [Required]
         public string CustomerName { get; set; }
@@ -20,6 +19,7 @@ namespace Inventory.Models
         public string City { get; set; }
         public string State { get; set; }
         [Display(Name = "Zip Code")]
+        public string ZioCode { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
         [Display(Name = "Contact Person")]

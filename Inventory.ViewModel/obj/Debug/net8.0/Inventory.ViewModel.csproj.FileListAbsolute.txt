@@ -1,0 +1,16 @@
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\bin\Debug\net8.0\Inventory.ViewModel.deps.json
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\bin\Debug\net8.0\Inventory.ViewModel.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\bin\Debug\net8.0\Inventory.ViewModel.pdb
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\bin\Debug\net8.0\Inventory.Models.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\bin\Debug\net8.0\Inventory.Models.pdb
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\obj\Debug\net8.0\Inventory.ViewModel.csproj.AssemblyReference.cache
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\obj\Debug\net8.0\Inventory.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\obj\Debug\net8.0\Inventory.ViewModel.AssemblyInfoInputs.cache
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\obj\Debug\net8.0\Inventory.ViewModel.AssemblyInfo.cs
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\obj\Debug\net8.0\Inventory.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\obj\Debug\net8.0\Inventory.ViewModel.sourcelink.json
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\obj\Debug\net8.0\Inventor.28442F52.Up2Date
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\obj\Debug\net8.0\Inventory.ViewModel.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\obj\Debug\net8.0\refint\Inventory.ViewModel.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\obj\Debug\net8.0\Inventory.ViewModel.pdb
+C:\Users\ISLAM\source\repos\Inventory\Inventory.ViewModel\obj\Debug\net8.0\ref\Inventory.ViewModel.dll

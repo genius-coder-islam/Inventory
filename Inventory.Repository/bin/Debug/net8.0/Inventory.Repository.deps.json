@@ -9,7 +9,9 @@
       "Inventory.Repository/1.0.0": {
         "dependencies": {
           "Inventory.Models": "1.0.0",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.25"
+          "Inventory.ViewModel": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.25",
+          "Microsoft.EntityFrameworkCore": "8.0.25"
         },
         "runtime": {
           "Inventory.Repository.dll": {}
@@ -217,6 +219,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Inventory.ViewModel/1.0.0": {
+        "dependencies": {
+          "Inventory.Models": "1.0.0"
+        },
+        "runtime": {
+          "Inventory.ViewModel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -353,6 +366,11 @@
       "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
     "Inventory.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inventory.ViewModel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

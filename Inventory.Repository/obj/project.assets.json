@@ -329,6 +329,19 @@
         "runtime": {
           "bin/placeholder/Inventory.Models.dll": {}
         }
+      },
+      "Inventory.ViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Inventory.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Inventory.ViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Inventory.ViewModel.dll": {}
+        }
       }
     }
   },
@@ -825,12 +838,19 @@
       "type": "project",
       "path": "../Inventory.Models/Inventory.Models.csproj",
       "msbuildProject": "../Inventory.Models/Inventory.Models.csproj"
+    },
+    "Inventory.ViewModel/1.0.0": {
+      "type": "project",
+      "path": "../Inventory.ViewModel/Inventory.ViewModel.csproj",
+      "msbuildProject": "../Inventory.ViewModel/Inventory.ViewModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Inventory.Models >= 1.0.0",
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.25"
+      "Inventory.ViewModel >= 1.0.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.25",
+      "Microsoft.EntityFrameworkCore >= 8.0.25"
     ]
   },
   "packageFolders": {
@@ -867,6 +887,9 @@
           "projectReferences": {
             "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Inventory.Models.csproj": {
               "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Inventory.Models.csproj"
+            },
+            "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\Inventory.ViewModel.csproj": {
+              "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\Inventory.ViewModel.csproj"
             }
           }
         }
@@ -888,6 +911,10 @@
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.25, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.25, )"
           }
