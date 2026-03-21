@@ -13,6 +13,10 @@ namespace Inventory.Repository.BillTypeService
     {
 
         Task<PaginatedList<BillTypeListViewModel>> GetAll(int pageSize, int PageNumber);
+        void Add(CreateBillTypeViewModel model);
+        void Update(BillTypeViewModel model);
+        void Delete(int id);
+        BillTypeViewModel GetById(int id);
 
     }
 }

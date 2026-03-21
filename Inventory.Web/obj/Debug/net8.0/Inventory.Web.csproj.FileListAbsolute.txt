@@ -299,3 +299,5 @@ C:\Users\ISLAM\source\repos\Inventory\Inventory.Web\obj\Debug\net8.0\Inventory.W
 C:\Users\ISLAM\source\repos\Inventory\Inventory.Web\obj\Debug\net8.0\Inventory.Web.genruntimeconfig.cache
 C:\Users\ISLAM\source\repos\Inventory\Inventory.Web\obj\Debug\net8.0\ref\Inventory.Web.dll
 C:\Users\ISLAM\source\repos\Inventory\Inventory.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Web\bin\Debug\net8.0\Inventory.Services.dll
+C:\Users\ISLAM\source\repos\Inventory\Inventory.Web\bin\Debug\net8.0\Inventory.Services.pdb

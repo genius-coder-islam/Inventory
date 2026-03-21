@@ -1564,7 +1564,7 @@
           "Mono.TextTemplating": "2.2.1"
         },
         "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Design.dll": {
+          "lib/net8.0/_._": {
             "related": ".xml"
           }
         },
@@ -3299,13 +3299,24 @@
           "Inventory.Models": "1.0.0",
           "Inventory.ViewModel": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.25",
-          "Microsoft.EntityFrameworkCore": "8.0.25"
+          "Microsoft.EntityFrameworkCore": "8.0.25",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.23"
         },
         "compile": {
           "bin/placeholder/Inventory.Repository.dll": {}
         },
         "runtime": {
           "bin/placeholder/Inventory.Repository.dll": {}
+        }
+      },
+      "Inventory.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Inventory.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Inventory.Services.dll": {}
         }
       },
       "Inventory.Utility/1.0.0": {
@@ -8888,6 +8899,11 @@
       "path": "../Inventory.Repository/Inventory.Repository.csproj",
       "msbuildProject": "../Inventory.Repository/Inventory.Repository.csproj"
     },
+    "Inventory.Services/1.0.0": {
+      "type": "project",
+      "path": "../Inventory.Services/Inventory.Services.csproj",
+      "msbuildProject": "../Inventory.Services/Inventory.Services.csproj"
+    },
     "Inventory.Utility/1.0.0": {
       "type": "project",
       "path": "../Inventory.Utility/Inventory.Utility.csproj",
@@ -8901,8 +8917,13 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Inventory.Models >= 1.0.0",
+      "Inventory.Repository >= 1.0.0",
+      "Inventory.Services >= 1.0.0",
       "Inventory.Utility >= 1.0.0",
+      "Inventory.ViewModel >= 1.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.23",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.23",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.23",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.23",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.23",
@@ -8941,8 +8962,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Inventory.Models.csproj": {
+              "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\Inventory.Models.csproj"
+            },
+            "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj": {
+              "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj"
+            },
+            "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Services\\Inventory.Services.csproj": {
+              "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Services\\Inventory.Services.csproj"
+            },
             "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj": {
               "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj"
+            },
+            "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\Inventory.ViewModel.csproj": {
+              "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\Inventory.ViewModel.csproj"
             }
           }
         }
@@ -8964,6 +8997,12 @@
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.UI": {
+            "target": "Package",
+            "version": "[8.0.23, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.23, )"
           },

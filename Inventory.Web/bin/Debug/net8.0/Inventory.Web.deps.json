@@ -8,8 +8,13 @@
     ".NETCoreApp,Version=v8.0": {
       "Inventory.Web/1.0.0": {
         "dependencies": {
+          "Inventory.Models": "1.0.0",
+          "Inventory.Repository": "1.0.0",
+          "Inventory.Services": "1.0.0",
           "Inventory.Utility": "1.0.0",
+          "Inventory.ViewModel": "1.0.0",
           "Microsoft.AspNetCore.Identity.UI": "8.0.23",
+          "Microsoft.EntityFrameworkCore.Design": "8.0.23",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.23",
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.23",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.23",
@@ -2242,10 +2247,19 @@
           "Inventory.Models": "1.0.0",
           "Inventory.ViewModel": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.25",
-          "Microsoft.EntityFrameworkCore": "8.0.25"
+          "Microsoft.EntityFrameworkCore": "8.0.25",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.23"
         },
         "runtime": {
           "Inventory.Repository.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Inventory.Services/1.0.0": {
+        "runtime": {
+          "Inventory.Services.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -3598,6 +3612,11 @@
       "sha512": ""
     },
     "Inventory.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inventory.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
