@@ -60,7 +60,6 @@ namespace Inventory.Repository.BillTypeService
 
         public BillTypeViewModel GetById(int id)
         {
-
             var model = _context.BillTypes.Where(x => x.BillTypeId  == id).FirstOrDefault();
             var vm = new BillTypeViewModel(model);
             return vm;

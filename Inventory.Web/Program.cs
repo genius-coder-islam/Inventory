@@ -1,10 +1,13 @@
-using Inventory.Utility.HelperClass;
+using Inventory.Models;
 using Inventory.Repository;
+using Inventory.Repository.BillTypeService;
+using Inventory.Repository.CustomerTypeService;
+using Inventory.Repository.InvoiceServices;
+using Inventory.Repository.SalesTypeService;
+using Inventory.Repository.VendorTypeService;
+using Inventory.Utility.HelperClass;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Inventory.Repository.BillTypeService;
-using Inventory.Models;
-using Inventory.Repository.CustomerTypeService;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
@@ -21,6 +24,9 @@ builder.Services.AddIdentity<AppUser, IdentityRole>().AddDefaultTokenProviders()
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IBillTypeRepo, BillTypeRepo>();
 builder.Services.AddScoped<ICustomerTypeRepo, CustomerTypeRepo>();
+builder.Services.AddScoped<IVendorTypeRepo, VendorTypeRepo>();
+builder.Services.AddScoped<ISalesTypeService, SalesTypeService>();
+builder.Services.AddScoped<IInvoiceTypeRepo, InvoiceTypeRepo>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

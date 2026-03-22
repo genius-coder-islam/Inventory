@@ -11,7 +11,6 @@ namespace Inventory.Repository.BillTypeService
 {
     public interface IBillTypeRepo
     {
-
         Task<PageResult<BillTypeListViewModel>> GetAll(int pageSize, int PageNumber);
         void Add(CreateBillTypeViewModel model);
         void Update(BillTypeViewModel model);

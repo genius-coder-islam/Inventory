@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.repository\\vendortypeservice\\ivendortyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|solutionrelative:inventory.repository\\vendortypeservice\\ivendortyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.repository\\vendortypeservice\\vendortyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|solutionrelative:inventory.repository\\vendortypeservice\\vendortyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08CF3021-A08E-4A42-876A-19F01B17E013}|Inventory.Web\\Inventory.Web.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{08CF3021-A08E-4A42-876A-19F01B17E013}|Inventory.Web\\Inventory.Web.csproj|solutionrelative:inventory.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.repository\\customertypeservice\\customertyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|solutionrelative:inventory.repository\\customertypeservice\\customertyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.repository\\billtypeservice\\ibilltyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|solutionrelative:inventory.repository\\billtypeservice\\ibilltyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Inventory.Web\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Inventory.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-22T17:54:17.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomerTypeRepo.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\CustomerTypeService\\CustomerTypeRepo.cs",
-              "RelativeDocumentMoniker": "Inventory.Repository\\CustomerTypeService\\CustomerTypeRepo.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\CustomerTypeService\\CustomerTypeRepo.cs",
-              "RelativeToolTip": "Inventory.Repository\\CustomerTypeService\\CustomerTypeRepo.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAFgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T17:26:34.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IBillTypeRepo.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\BillTypeService\\IBillTypeRepo.cs",
-              "RelativeDocumentMoniker": "Inventory.Repository\\BillTypeService\\IBillTypeRepo.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\BillTypeService\\IBillTypeRepo.cs",
-              "RelativeToolTip": "Inventory.Repository\\BillTypeService\\IBillTypeRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T17:23:15.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VendorTypeRepo.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\VendorTypeService\\VendorTypeRepo.cs",
-              "RelativeDocumentMoniker": "Inventory.Repository\\VendorTypeService\\VendorTypeRepo.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\VendorTypeService\\VendorTypeRepo.cs",
-              "RelativeToolTip": "Inventory.Repository\\VendorTypeService\\VendorTypeRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T17:13:54.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IVendorTypeRepo.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\VendorTypeService\\IVendorTypeRepo.cs",
-              "RelativeDocumentMoniker": "Inventory.Repository\\VendorTypeService\\IVendorTypeRepo.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\VendorTypeService\\IVendorTypeRepo.cs",
-              "RelativeToolTip": "Inventory.Repository\\VendorTypeService\\IVendorTypeRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T17:13:38.235Z",
+              "WhenOpened": "2026-03-22T20:42:30.621Z",
               "EditorCaption": ""
             }
           ]

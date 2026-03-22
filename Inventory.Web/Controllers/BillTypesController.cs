@@ -12,7 +12,7 @@ namespace Inventory.Web.Controllers
         {
             _billTypeRepo = billTypeRepo;
         }
-        [HttpGet]
+        //[HttpGet]
         //public Task<IActionResult> Index(int pageSize = 10, int pageNumber = 1)
         //{
         //    var billTypes = _billTypeRepo.GetAll(pageSize, pageNumber);
@@ -48,6 +48,16 @@ namespace Inventory.Web.Controllers
         {
             var model = _billTypeRepo.GetById(id);
             return View(model);
+        }
+        [HttpPost]
+        public IActionResult Edit(BillTypeViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                _billTypeRepo.Update(model);
+                return RedirectToAction("Index");
+            }
+            return View();
         }
         [HttpGet]
         public IActionResult Delete(int id)
