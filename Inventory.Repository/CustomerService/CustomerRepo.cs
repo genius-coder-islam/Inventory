@@ -17,12 +17,12 @@ namespace Inventory.Repository.CustomerService
         {
             _context = context;
         }
-        public async Task<PaginatedList<CustomerListViewModel>> GetAll(int pageSize, int PageNumber)
+        public async Task<PageResult<CustomerListViewModel>> GetAll(int pageSize, int PageNumber)
         {
 
             var customerList = _context.Customers;
             var vm = customerList.ModelToVM().AsQueryable();
-            return await PaginatedList<CustomerListViewModel>.CreateAsync(vm, PageNumber, pageSize);
+            return await PageResult<CustomerListViewModel>.CreateAsync(vm, PageNumber, pageSize);
 
         }
     }

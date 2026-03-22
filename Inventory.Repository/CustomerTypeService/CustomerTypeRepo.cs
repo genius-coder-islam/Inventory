@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Inventory.ViewModel.Mapping;
+using Inventory.Models;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Inventory.Repository.CustomerTypeService
 {
@@ -18,11 +20,86 @@ namespace Inventory.Repository.CustomerTypeService
             _context = context;
         }
 
-        public async Task<PaginatedList<CustomerTypeListViewModel>> GetAll(int pageSize, int pageNumber)
+        public void Add(CreateCustomerTypeViewModel vm)
         {
-            var customerTypeList = _context.CustomerTypes;
-            var vm = customerTypeList.ModelToVM().AsQueryable();
-            return await PaginatedList<CustomerTypeListViewModel>.CreateAsync(vm, pageNumber, pageSize);
+            var model = new CreateCustomerTypeViewModel().Convert(vm);
+            _context.CustomerTypes.Add(model);
+            _context.SaveChanges();
+        }
+
+        public void Delete(int id)
+        {
+            var model =_context.CustomerTypes.Find(id);
+            if (model != null)
+            {
+                _context.CustomerTypes.Remove(model);
+                _context.SaveChanges();
+            }
+        }
+
+        public PageResult<CustomerTypeListViewModel> GetAll(int pageSize, int pageNumber)
+        {
+            int totalCount = 0;
+            List<CustomerTypeListViewModel> vmList = new List<CustomerTypeListViewModel>();
+
+            try
+            {
+                int ExcludeRecords = ((pageSize * pageNumber) - pageSize);
+
+                var modelList = _context.CustomerTypes
+                    .Skip(ExcludeRecords)
+                    .Take(pageSize)
+                    .ToList();
+
+                // FIXED: was wrongly using BillTypes (copy-paste mistake from previous repo)
+                totalCount = _context.CustomerTypes.Count();
+
+                vmList = ConvertModelToViewModelList(modelList);
+            }
+            catch (Exception ex) { throw; }
+
+            // FIXED: use constructor instead of object initializer
+            var result = new PageResult<CustomerTypeListViewModel>(
+                vmList,
+                totalCount,
+                pageNumber,
+                pageSize);
+
+            return result;
+        }
+        private List<CustomerTypeListViewModel> ConvertModelToViewModelList(List<CustomerType> modelList)
+        {
+            List<CustomerTypeListViewModel> vmList = new List<CustomerTypeListViewModel>();
+
+            foreach (var item in modelList)
+            {
+                vmList.Add(new CustomerTypeListViewModel()
+                {
+                    CustomerTypeId = item.CustomerTypeId,
+                    CustomerTypeName = item.CustomerTypeName,
+                    Description = item.Description
+                });
+            }
+
+            return vmList;
+        }
+
+        public CustomerTypeViewModel GetById(int id)
+        {
+            var model = _context.CustomerTypes.Find(id);
+            var vm = new CustomerTypeViewModel(model);
+            return vm;
+        }
+
+        public void Update(CustomerTypeViewModel vm)
+        {
+            var model = _context.CustomerTypes.Where(x => x.CustomerTypeId == vm.CustomerTypeId).FirstOrDefault();
+            if (model != null)
+            {
+                model.Description = vm.Description;
+                model.CustomerTypeName = vm.CustomerTypeName;
+            }
+            _context.SaveChanges();
         }
     }
 }

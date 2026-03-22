@@ -21,11 +21,11 @@ namespace Inventory.Repository.ProductTypeService
             _context = context;
         }
 
-        public async Task<PaginatedList<ProductTypeListViewModel>> GetAll(int pageSize, int PageNumber)
+        public async Task<PageResult<ProductTypeListViewModel>> GetAll(int pageSize, int PageNumber)
         {
             var productTypeList = _context.ProductTypes;
             var vm = productTypeList.ModelToVM().AsQueryable();
-            return await PaginatedList<ProductTypeListViewModel>.CreateAsync(vm, PageNumber, pageSize);
+            return await PageResult<ProductTypeListViewModel>.CreateAsync(vm, PageNumber, pageSize);
 
         }
     }

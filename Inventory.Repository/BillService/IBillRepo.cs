@@ -10,7 +10,7 @@ namespace Inventory.Repository.BillService
 {
     public interface IBillRepo
     {
-        Task<PaginatedList<BillListViewModel>> GetAll(int pageSize, int PageNumber);
+        Task<PageResult<BillListViewModel>> GetAll(int pageSize, int PageNumber);
 
     }
 }

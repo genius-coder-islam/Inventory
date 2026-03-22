@@ -13,7 +13,7 @@ namespace Inventory.Repository.ProductTypeService
     public interface IProductTypeRepo
     {
 
-        Task<PaginatedList<ProductTypeListViewModel>> GetAll(int pageSize, int PageNumber);
+        Task<PageResult<ProductTypeListViewModel>> GetAll(int pageSize, int PageNumber);
 
     }
 }

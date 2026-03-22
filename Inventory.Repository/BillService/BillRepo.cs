@@ -18,11 +18,11 @@ namespace Inventory.Repository.BillService
             _context = context;
         }
 
-        public async Task<PaginatedList<BillListViewModel>> GetAll(int pageSize, int PageNumber)
+        public async Task<PageResult<BillListViewModel>> GetAll(int pageSize, int PageNumber)
         {
             var bills = _context.Bills;
             var vm = bills.ModelToVM().AsQueryable();
-            return await PaginatedList<BillListViewModel>.CreateAsync(vm, PageNumber, pageSize);
+            return await PageResult<BillListViewModel>.CreateAsync(vm, PageNumber, pageSize);
         }
     }
 }

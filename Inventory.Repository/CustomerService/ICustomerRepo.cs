@@ -11,7 +11,7 @@ namespace Inventory.Repository.CustomerService
     public interface IProductRepo
     {
 
-        Task<PaginatedList<CustomerListViewModel>> GetAll(int pageSize, int PageNumber);
+        Task<PageResult<CustomerListViewModel>> GetAll(int pageSize, int PageNumber);
 
     }
 }

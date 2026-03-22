@@ -10,8 +10,11 @@ namespace Inventory.Repository.CustomerTypeService
 {
     public interface ICustomerTypeRepo
     {
-
-        Task<PaginatedList<CustomerTypeListViewModel>> GetAll(int pageSize, int pageNumber);
+        PageResult<CustomerTypeListViewModel> GetAll(int pageSize, int pageNumber);
+        void Add(CreateCustomerTypeViewModel model);
+        void Update(CustomerTypeViewModel model);
+        void Delete(int id);
+        CustomerTypeViewModel GetById(int id);
 
     }
 }

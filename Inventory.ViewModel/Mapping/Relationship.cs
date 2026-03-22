@@ -58,7 +58,7 @@ namespace Inventory.ViewModel.Mapping
         }
 
         public static IEnumerable<BillTypeListViewModel>
-        ModelToVM(this IEnumerable<Inventory.Models.BillType> billTypes)
+            ModelToVM(this IEnumerable<Inventory.Models.BillType> billTypes)
         {
             List<BillTypeListViewModel> List = new List<BillTypeListViewModel>();
             foreach (var ct in billTypes)

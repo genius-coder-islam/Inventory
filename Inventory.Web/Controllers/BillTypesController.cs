@@ -13,20 +13,20 @@ namespace Inventory.Web.Controllers
             _billTypeRepo = billTypeRepo;
         }
         [HttpGet]
-        public Task<IActionResult> Index(int pageSize = 10, int pageNumber = 1)
-        {
-            var billTypes = _billTypeRepo.GetAll(pageSize, pageNumber);
-
-            // Instead of 'return View(billTypes);'
-            // We manually wrap the ViewResult into a Task to match the method signature
-            return Task.FromResult<IActionResult>(View(billTypes.Result));
-        }
-        //[HttpGet]
-        //public Task<IActionResult> Index(int pageSize=10, int pageNumber=1)
+        //public Task<IActionResult> Index(int pageSize = 10, int pageNumber = 1)
         //{
-        //    var billTypes = _billTypeRepo.GetAll(pageNumber, pageSize);
-        //    return View(billTypes);
+        //    var billTypes = _billTypeRepo.GetAll(pageSize, pageNumber);
+
+        //    // Instead of 'return View(billTypes);'
+        //    // We manually wrap the ViewResult into a Task to match the method signature
+        //    return Task.FromResult<IActionResult>(View(billTypes.Result));
         //}
+        [HttpGet]
+        public async Task<IActionResult> Index(int pageSize = 10, int pageNumber = 1)
+        {
+            var billTypes = await _billTypeRepo.GetAll(pageSize, pageNumber);
+            return View(billTypes);
+        }
         [HttpGet]
         public IActionResult Create()
         {

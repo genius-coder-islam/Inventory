@@ -4,20 +4,23 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Inventory.Repository.BillTypeService;
 using Inventory.Models;
+using Inventory.Repository.CustomerTypeService;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("ApplicationDbContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContextConnection' not found.");
-
+builder.Services.Configure<SuperAdmin>(builder.Configuration.GetSection("SuperAdmin"));
 builder.Services.AddDbContext<Inventory.Repository.ApplicationDbContext>(options => 
 options.UseSqlServer(connectionString));
 
-builder.Services.AddIdentity<AppUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddIdentity<AppUser, IdentityRole>().AddDefaultTokenProviders()
     .AddEntityFrameworkStores<Inventory.Repository.ApplicationDbContext>();
+//builder.Services.AddIdentity<AppUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+//    .AddEntityFrameworkStores<Inventory.Repository.ApplicationDbContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IBillTypeRepo, BillTypeRepo>();
-builder.Services.Configure<SuperAdmin>(builder.Configuration.GetSection("SuperAdmin"));
+builder.Services.AddScoped<ICustomerTypeRepo, CustomerTypeRepo>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
