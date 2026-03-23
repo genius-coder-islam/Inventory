@@ -1,8 +1,9 @@
-﻿using Inventory.Repository.Paging;
+﻿using Inventory.Repository;
+using Inventory.Repository.Paging;
 using Inventory.ViewModel.Bill;
 using Inventory.ViewModel.Customer;
 using Inventory.ViewModel.Mapping;
-using Inventory.Repository;
+using Inventory.ViewModel.Vendor;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -26,13 +27,11 @@ namespace Inventory.Repository.BillTypeService
             var vm = billTypes.ModelToVM().AsQueryable();
             return await PageResult<BillTypeListViewModel>.CreateAsync(vm, PageNumber, pageSize);
         }
-        public void Add(CreateBillTypeViewModel model)
+        public void Add(CreateBillTypeViewModel vm)
         {
-
-            var billType = model.VMToModel();
-            _context.BillTypes.Add(billType);
+            var model = new CreateBillTypeViewModel().Convert(vm);
+            _context.BillTypes.Add(model);
             _context.SaveChanges();
-
         }
 
         public void Update(BillTypeViewModel vm)

@@ -14,7 +14,7 @@ namespace Inventory.Web.Controllers
         {
             _vendorTypeRepo = vendorTypeRepo;
         }
-        [HttpGet]
+        //[HttpGet]
         //public Task<IActionResult> Index(int pageSize = 10, int pageNumber = 1)
         //{
         //    var billTypes = _vendorTypeRepo.GetAll(pageSize, pageNumber);

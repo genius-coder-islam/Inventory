@@ -1,6 +1,7 @@
 ﻿using Inventory.Repository.CustomerTypeService;
 using Inventory.ViewModel.Bill;
 using Inventory.ViewModel.Customer;
+using Inventory.ViewModel.Vendor;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Inventory.Web.Controllers
@@ -50,6 +51,16 @@ namespace Inventory.Web.Controllers
         {
             var model = _customerTypeRepo.GetById(id);
             return View(model);
+        }
+        [HttpPost]
+        public IActionResult Edit(CustomerTypeViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                _customerTypeRepo.Update(model);
+                return RedirectToAction("Index");
+            }
+            return View();
         }
         [HttpGet]
         public IActionResult Delete(int id)

@@ -1,4 +1,5 @@
 ﻿using Inventory.Models;
+using Inventory.ViewModel.Vendor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,13 @@ namespace Inventory.ViewModel.Bill
                 BillTypeName = BillTypeName,
                 Description = Description
             };
+        }
+        public BillType Convert(CreateBillTypeViewModel vm)
+        {
+            BillType model = new BillType();
+            model.BillTypeName = vm.BillTypeName;
+            model.Description = vm.Description;
+            return model;
         }
     }
 }

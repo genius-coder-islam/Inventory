@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08CF3021-A08E-4A42-876A-19F01B17E013}|Inventory.Web\\Inventory.Web.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08CF3021-A08E-4A42-876A-19F01B17E013}|Inventory.Web\\Inventory.Web.csproj|solutionrelative:inventory.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{056EB1FD-C0FA-434B-AF7C-DB3B91853027}|Inventory.ViewModel\\Inventory.ViewModel.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.viewmodel\\paymenttype\\createpaymenttypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{056EB1FD-C0FA-434B-AF7C-DB3B91853027}|Inventory.ViewModel\\Inventory.ViewModel.csproj|solutionrelative:inventory.viewmodel\\paymenttype\\createpaymenttypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.repository\\paymenttypes\\paymenttyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|solutionrelative:inventory.repository\\paymenttypes\\paymenttyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.repository\\billtypeservice\\billtyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|solutionrelative:inventory.repository\\billtypeservice\\billtyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{056EB1FD-C0FA-434B-AF7C-DB3B91853027}|Inventory.ViewModel\\Inventory.ViewModel.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.viewmodel\\bill\\createbilltypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{056EB1FD-C0FA-434B-AF7C-DB3B91853027}|Inventory.ViewModel\\Inventory.ViewModel.csproj|solutionrelative:inventory.viewmodel\\bill\\createbilltypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{056EB1FD-C0FA-434B-AF7C-DB3B91853027}|Inventory.ViewModel\\Inventory.ViewModel.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.viewmodel\\paymenttype\\paymenttypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{056EB1FD-C0FA-434B-AF7C-DB3B91853027}|Inventory.ViewModel\\Inventory.ViewModel.csproj|solutionrelative:inventory.viewmodel\\paymenttype\\paymenttypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.models\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74FB0E1C-1705-4A7A-860E-B0CB1295C690}|Inventory.Models\\Inventory.Models.csproj|solutionrelative:inventory.models\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.repository\\vendortypeservice\\vendortyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|solutionrelative:inventory.repository\\vendortypeservice\\vendortyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.repository\\paymenttypes\\ipaymenttyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|solutionrelative:inventory.repository\\paymenttypes\\ipaymenttyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateBillTypeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\Bill\\CreateBillTypeViewModel.cs",
+              "RelativeDocumentMoniker": "Inventory.ViewModel\\Bill\\CreateBillTypeViewModel.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\Bill\\CreateBillTypeViewModel.cs",
+              "RelativeToolTip": "Inventory.ViewModel\\Bill\\CreateBillTypeViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T18:11:52.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BillTypeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\BillTypeService\\BillTypeRepo.cs",
+              "RelativeDocumentMoniker": "Inventory.Repository\\BillTypeService\\BillTypeRepo.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\BillTypeService\\BillTypeRepo.cs",
+              "RelativeToolTip": "Inventory.Repository\\BillTypeService\\BillTypeRepo.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:57:13.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VendorTypeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\VendorTypeService\\VendorTypeRepo.cs",
+              "RelativeDocumentMoniker": "Inventory.Repository\\VendorTypeService\\VendorTypeRepo.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\VendorTypeService\\VendorTypeRepo.cs",
+              "RelativeToolTip": "Inventory.Repository\\VendorTypeService\\VendorTypeRepo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:49:49.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentTypeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\PaymentType\\PaymentTypeViewModel.cs",
+              "RelativeDocumentMoniker": "Inventory.ViewModel\\PaymentType\\PaymentTypeViewModel.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\PaymentType\\PaymentTypeViewModel.cs",
+              "RelativeToolTip": "Inventory.ViewModel\\PaymentType\\PaymentTypeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:39:18.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Inventory.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Inventory.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-22T20:42:30.621Z",
+              "Title": "CreatePaymentTypeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\PaymentType\\CreatePaymentTypeViewModel.cs",
+              "RelativeDocumentMoniker": "Inventory.ViewModel\\PaymentType\\CreatePaymentTypeViewModel.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\PaymentType\\CreatePaymentTypeViewModel.cs",
+              "RelativeToolTip": "Inventory.ViewModel\\PaymentType\\CreatePaymentTypeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:37:36.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentType.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\PaymentType.cs",
+              "RelativeDocumentMoniker": "Inventory.Models\\PaymentType.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Models\\PaymentType.cs",
+              "RelativeToolTip": "Inventory.Models\\PaymentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:33:08.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentTypeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\PaymentTypes\\PaymentTypeRepo.cs",
+              "RelativeDocumentMoniker": "Inventory.Repository\\PaymentTypes\\PaymentTypeRepo.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\PaymentTypes\\PaymentTypeRepo.cs",
+              "RelativeToolTip": "Inventory.Repository\\PaymentTypes\\PaymentTypeRepo.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:30:07.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPaymentTypeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\PaymentTypes\\IPaymentTypeRepo.cs",
+              "RelativeDocumentMoniker": "Inventory.Repository\\PaymentTypes\\IPaymentTypeRepo.cs",
+              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\PaymentTypes\\IPaymentTypeRepo.cs",
+              "RelativeToolTip": "Inventory.Repository\\PaymentTypes\\IPaymentTypeRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:29:55.885Z",
               "EditorCaption": ""
             }
           ]

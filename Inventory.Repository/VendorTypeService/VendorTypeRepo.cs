@@ -1,5 +1,6 @@
 ﻿using Inventory.Models;
 using Inventory.Repository.Paging;
+using Inventory.ViewModel.Bill;
 using Inventory.ViewModel.Customer;
 using Inventory.ViewModel.Vendor;
 using System;
@@ -28,12 +29,12 @@ namespace Inventory.Repository.VendorTypeService
 
         public void Delete(int id)
         {
-            var model = _context.VendorTypes.Find(id);
+            var model = _context.VendorTypes.Where(x => x.VendorTypeId == id).FirstOrDefault();
             if (model != null)
             {
                 _context.VendorTypes.Remove(model);
-                _context.SaveChanges();
             }
+            _context.SaveChanges();
         }
 
         public PageResult<VendorTypeViewModel> GetAll(int pageNumber, int pageSize)
@@ -89,7 +90,7 @@ namespace Inventory.Repository.VendorTypeService
 
         public VendorTypeViewModel GetById(int id)
         {
-            var model = _context.VendorTypes.Find(id);
+            var model = _context.VendorTypes.Where(x => x.VendorTypeId == id).FirstOrDefault();
             var vm = new VendorTypeViewModel(model);
             return vm;
         }
