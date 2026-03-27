@@ -4,6 +4,7 @@ using Inventory.Repository.BillTypeService;
 using Inventory.Repository.CustomerTypeService;
 using Inventory.Repository.InvoiceServices;
 using Inventory.Repository.PaymentTypes;
+using Inventory.Repository.ProductTypeService;
 using Inventory.Repository.Purchase;
 using Inventory.Repository.SalesTypeService;
 using Inventory.Repository.VendorTypeService;
@@ -31,6 +32,7 @@ builder.Services.AddScoped<ISalesTypeService, SalesTypeService>();
 builder.Services.AddScoped<IInvoiceTypeRepo, InvoiceTypeRepo>();
 builder.Services.AddScoped<IPaymentTypeRepo, PaymentTypeRepo>();
 builder.Services.AddScoped<IPurchaseTypeRepo, PurchaseTypeRepo>();
+builder.Services.AddScoped<IProductTypeRepo, ProductTypeRepo>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

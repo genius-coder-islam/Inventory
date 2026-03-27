@@ -42,7 +42,7 @@ namespace Inventory.Repository
         public DbSet<SalesOrder> SalesOrders { get; set; }
         public DbSet<SalesOrderLine> SalesOrderLines { get; set; }
         public DbSet<SalesType> SalesTypes { get; set; }
-        public DbSet<Shipment> Shipments { get; set; }
+        public DbSet<Inventory.Models.Shipment> Shipments { get; set; }
         public DbSet<ShipmentType> ShipmentTypes { get; set; }
         public DbSet<UserProfile> UserProfiles { get; set; }
         public DbSet<Vendor> Vendors { get; set; }
