@@ -15,6 +15,6 @@ namespace Inventory.Repository.CustomerTypeService
         void Update(CustomerTypeViewModel model);
         void Delete(int id);
         CustomerTypeViewModel GetById(int id);
-
+        IEnumerable<CustomerTypeListViewModel> GetALLWithoutPaging();
     }
 }

@@ -22,7 +22,7 @@ namespace Inventory.Repository.Shipment
         {
             var model = new CreateShipmentTypeViewModel().Convert(vm);
             _context.ShipmentTypes.Add(model);
-            _context.SaveChanges(); ;
+            _context.SaveChanges();
         }
 
         public void Delete(int id)

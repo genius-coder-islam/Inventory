@@ -101,5 +101,12 @@ namespace Inventory.Repository.CustomerTypeService
             }
             _context.SaveChanges();
         }
+
+        public IEnumerable<CustomerTypeListViewModel> GetALLWithoutPaging()
+        {
+            var modelList =  _context.CustomerTypes.ToList();
+            var viewModelList = ConvertModelToViewModelList(modelList);
+            return viewModelList;
+        }
     }
 }

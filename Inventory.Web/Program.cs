@@ -1,12 +1,14 @@
 using Inventory.Models;
 using Inventory.Repository;
 using Inventory.Repository.BillTypeService;
+using Inventory.Repository.CustomerService;
 using Inventory.Repository.CustomerTypeService;
 using Inventory.Repository.InvoiceServices;
 using Inventory.Repository.PaymentTypes;
 using Inventory.Repository.ProductTypeService;
 using Inventory.Repository.Purchase;
 using Inventory.Repository.SalesTypeService;
+using Inventory.Repository.Shipment;
 using Inventory.Repository.VendorTypeService;
 using Inventory.Utility.HelperClass;
 using Microsoft.AspNetCore.Identity;
@@ -33,6 +35,8 @@ builder.Services.AddScoped<IInvoiceTypeRepo, InvoiceTypeRepo>();
 builder.Services.AddScoped<IPaymentTypeRepo, PaymentTypeRepo>();
 builder.Services.AddScoped<IPurchaseTypeRepo, PurchaseTypeRepo>();
 builder.Services.AddScoped<IProductTypeRepo, ProductTypeRepo>();
+builder.Services.AddScoped<IShipmentTypeRepo, ShipmentTypeRepo>();
+builder.Services.AddScoped<ICustomerRepo, CustomerRepo>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

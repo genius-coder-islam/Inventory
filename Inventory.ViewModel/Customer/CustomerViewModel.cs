@@ -9,6 +9,20 @@ namespace Inventory.ViewModel.Customer
 {
     public class CustomerViewModel
     {
+        public CustomerViewModel(Models.Customer model)
+        {
+            CustomerId = model.CustomerId;
+            CustomerName = model.CustomerName;
+            CustomerTypeId = model.CustomerTypeId;
+            Address = model.Address;
+            City = model.City;
+            State = model.State;
+            ZioCode = model.ZioCode;
+            Phone = model.Phone;
+            Email = model.Email;
+            ContactPerson = model.ContactPerson;
+        }
+
         public int CustomerId { get; set; }
         [Required]
         public string CustomerName { get; set; }
@@ -24,5 +38,6 @@ namespace Inventory.ViewModel.Customer
         public string Email { get; set; }
         [Display(Name = "Contact Person")]
         public string ContactPerson { get; set; }
+        public Models.Customer X { get; }
     }
 }

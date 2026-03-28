@@ -23,5 +23,20 @@ namespace Inventory.ViewModel.Customer
         public string Email { get; set; }
         [Display(Name = "Contact Person")]
         public string ContactPerson { get; set; }
+
+        public Models.Customer Convert(CreateCustomerViewModel vm)
+        {
+            var model = new Models.Customer();
+            model.CustomerName = vm.CustomerName;
+            model.CustomerTypeId = vm.CustomerTypeId;
+            model.Address = vm.Address;
+            model.City = vm.City;
+            model.State = vm.State;
+            model.ZioCode = vm.ZioCode;
+            model.Phone = vm.Phone;
+            model.Email = vm.Email;
+            model.ContactPerson = vm.ContactPerson;
+            return model;
+        }
     }
 }

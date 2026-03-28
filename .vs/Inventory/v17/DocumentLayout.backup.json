@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{056EB1FD-C0FA-434B-AF7C-DB3B91853027}|Inventory.ViewModel\\Inventory.ViewModel.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.viewmodel\\customer\\createcustomerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{056EB1FD-C0FA-434B-AF7C-DB3B91853027}|Inventory.ViewModel\\Inventory.ViewModel.csproj|solutionrelative:inventory.viewmodel\\customer\\createcustomerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{056EB1FD-C0FA-434B-AF7C-DB3B91853027}|Inventory.ViewModel\\Inventory.ViewModel.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.viewmodel\\customer\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{056EB1FD-C0FA-434B-AF7C-DB3B91853027}|Inventory.ViewModel\\Inventory.ViewModel.csproj|solutionrelative:inventory.viewmodel\\customer\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|c:\\users\\islam\\source\\repos\\inventory\\inventory.repository\\customerservice\\icustomerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{885CFB1A-B6FD-4117-823A-33E68256EBA4}|Inventory.Repository\\Inventory.Repository.csproj|solutionrelative:inventory.repository\\customerservice\\icustomerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateCustomerViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\Customer\\CreateCustomerViewModel.cs",
-              "RelativeDocumentMoniker": "Inventory.ViewModel\\Customer\\CreateCustomerViewModel.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\Customer\\CreateCustomerViewModel.cs",
-              "RelativeToolTip": "Inventory.ViewModel\\Customer\\CreateCustomerViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T20:15:33.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\Customer\\CustomerViewModel.cs",
-              "RelativeDocumentMoniker": "Inventory.ViewModel\\Customer\\CustomerViewModel.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.ViewModel\\Customer\\CustomerViewModel.cs",
-              "RelativeToolTip": "Inventory.ViewModel\\Customer\\CustomerViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T20:14:15.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ICustomerRepo.cs",
-              "DocumentMoniker": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\CustomerService\\ICustomerRepo.cs",
-              "RelativeDocumentMoniker": "Inventory.Repository\\CustomerService\\ICustomerRepo.cs",
-              "ToolTip": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\CustomerService\\ICustomerRepo.cs",
-              "RelativeToolTip": "Inventory.Repository\\CustomerService\\ICustomerRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T20:10:51.171Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
