@@ -50,7 +50,7 @@ namespace Inventory.Repository.PaymentTypes
                     .ToList();
 
                 // FIXED: was wrongly using BillTypes (copy-paste mistake from previous repo)
-                totalCount = _context.PaymentTypes.Count();
+                totalCount = _context.PaymentTypes.ToList().Count();
 
                 vmList = ConvertModelToViewModelList(modelList);
             }

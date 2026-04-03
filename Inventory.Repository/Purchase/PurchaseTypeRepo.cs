@@ -49,7 +49,7 @@ namespace Inventory.Repository.Purchase
                     .ToList();
 
                 // FIXED: was wrongly using BillTypes (copy-paste mistake from previous repo)
-                totalCount = _context.PurchaseTypes.Count();
+                totalCount = _context.PurchaseTypes.ToList().Count();
 
                 vmList = ConvertModelToViewModelList(modelList);
             }

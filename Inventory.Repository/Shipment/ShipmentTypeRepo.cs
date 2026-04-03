@@ -50,7 +50,7 @@ namespace Inventory.Repository.Shipment
                     .ToList();
 
                 // FIXED: was wrongly using BillTypes (copy-paste mistake from previous repo)
-                totalCount = _context.ShipmentTypes.Count();
+                totalCount = _context.ShipmentTypes.ToList().Count();
 
                 vmList = ConvertModelToViewModelList(modelList);
             }

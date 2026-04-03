@@ -16,5 +16,6 @@ namespace Inventory.Repository.CustomerTypeService
         void Delete(int id);
         CustomerTypeViewModel GetById(int id);
         IEnumerable<CustomerTypeListViewModel> GetALLWithoutPaging();
+        PageResult<CustomerTypeListViewModel> Search(string searching, int pageSize, int pageNumber);
     }
 }

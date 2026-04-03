@@ -1,4 +1,5 @@
 ﻿using Inventory.Repository.CustomerTypeService;
+using Inventory.Repository.Paging;
 using Inventory.ViewModel.Bill;
 using Inventory.ViewModel.Customer;
 using Inventory.ViewModel.Vendor;
@@ -24,10 +25,15 @@ namespace Inventory.Web.Controllers
         //    // We manually wrap the ViewResult into a Task to match the method signature
         //    return Task.FromResult<IActionResult>(View(customerTypes.Result));
         //}
-        [HttpGet]
-        public IActionResult Index(int pageSize = 10, int pageNumber = 1)
+        //[HttpGet]
+        public IActionResult Index(int pageSize = 10, int pageNumber = 1,string? searching=null)
         {
-            var customerTypes = _customerTypeRepo.GetAll(pageSize, pageNumber);
+            PageResult<CustomerTypeListViewModel> customerTypes;
+            customerTypes = _customerTypeRepo.GetAll(pageSize, pageNumber);
+            if (!String.IsNullOrEmpty(searching))
+            {
+                customerTypes = _customerTypeRepo.Search(searching, pageSize, pageNumber);
+            }
             return View(customerTypes);
         }
         [HttpGet]

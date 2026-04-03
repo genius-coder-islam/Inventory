@@ -54,7 +54,7 @@ namespace Inventory.Repository.CustomerService
 
                 // FIXED: was wrongly using BillTypes (copy-paste mistake from previous repo)
                 totalCount = (from c in _context.Customers
-                              select c).Count();
+                              select c).ToList().Count();
 
                 vmList = ConvertModelToViewModelList(modelList);
             }

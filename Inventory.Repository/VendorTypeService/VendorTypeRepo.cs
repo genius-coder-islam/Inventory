@@ -52,7 +52,7 @@ namespace Inventory.Repository.VendorTypeService
                     .ToList();
 
                 // FIXED: was wrongly using BillTypes (copy-paste mistake from previous repo)
-                totalCount = _context.VendorTypes.Count();
+                totalCount = _context.VendorTypes.ToList().Count();
 
                 vmList = ConvertModelToViewModelList(modelList);
             }

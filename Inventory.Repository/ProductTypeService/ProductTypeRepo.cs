@@ -55,7 +55,7 @@ namespace Inventory.Repository.ProductTypeService
                     .ToList();
 
                 // FIXED: was wrongly using BillTypes (copy-paste mistake from previous repo)
-                totalCount = _context.ProductTypes.Count();
+                totalCount = _context.ProductTypes.ToList().Count();
 
                 vmList = ConvertModelToViewModelList(modelList);
             }

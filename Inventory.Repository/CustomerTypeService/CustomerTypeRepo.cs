@@ -52,7 +52,7 @@ namespace Inventory.Repository.CustomerTypeService
                     .ToList();
 
                 // FIXED: was wrongly using BillTypes (copy-paste mistake from previous repo)
-                totalCount = _context.CustomerTypes.Count();
+                totalCount = _context.CustomerTypes.ToList().Count();
 
                 vmList = ConvertModelToViewModelList(modelList);
             }
@@ -107,6 +107,37 @@ namespace Inventory.Repository.CustomerTypeService
             var modelList =  _context.CustomerTypes.ToList();
             var viewModelList = ConvertModelToViewModelList(modelList);
             return viewModelList;
+        }
+
+        public PageResult<CustomerTypeListViewModel> Search(string searching, int pageSize, int pageNumber)
+        {
+            int totalCount = 0;
+            List<CustomerTypeListViewModel> vmList = new List<CustomerTypeListViewModel>();
+
+            try
+            {
+                int ExcludeRecords = ((pageSize * pageNumber) - pageSize);
+
+                var modelList = _context.CustomerTypes.Where(x => x.CustomerTypeName.Contains(searching))
+                    .Skip(ExcludeRecords)
+                    .Take(pageSize)
+                    .ToList();
+
+                // FIXED: was wrongly using BillTypes (copy-paste mistake from previous repo)
+                totalCount = _context.CustomerTypes.Where(x => x.CustomerTypeName.Contains(searching)).ToList().Count();
+
+                vmList = ConvertModelToViewModelList(modelList);
+            }
+            catch (Exception ex) { throw; }
+
+            // FIXED: use constructor instead of object initializer
+            var result = new PageResult<CustomerTypeListViewModel>(
+                vmList,
+                totalCount,
+                pageNumber,
+                pageSize);
+
+            return result;
         }
     }
 }

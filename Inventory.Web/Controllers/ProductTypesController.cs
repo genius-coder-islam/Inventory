@@ -23,7 +23,7 @@ namespace Inventory.Web.Controllers
         //    // We manually wrap the ViewResult into a Task to match the method signature
         //    return Task.FromResult<IActionResult>(View(billTypes.Result));
         //}
-        [HttpGet]
+        //[HttpGet]
         public IActionResult Index(int pageSize = 10, int pageNumber = 1)
         {
             var productTypes = _productTypeRepo.GetAll(pageSize, pageNumber);

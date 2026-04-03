@@ -5,11 +5,15 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<div class="row">
+    <div class="col-6">
+        Add New Customer
+        <a asp-action="Create" class="btn btn-primary">Add</a>
+    </div>
+    <div class="col-4">
+        <partial name="_search" />
+    </div>
+    <div class="row">
 <table class="table">
     <thead>
         <tr>
@@ -88,3 +92,5 @@
 }
     </tbody>
 </table>
+</div>
+</div>

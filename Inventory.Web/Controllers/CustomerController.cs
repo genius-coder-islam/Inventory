@@ -19,15 +19,6 @@ namespace Inventory.Web.Controllers
             _customerRepo = customerRepo;
             _customerTypeRepo = customerTypeRepo;
         }
-        //[HttpGet]
-        //public Task<IActionResult> Index(int pageSize = 10, int pageNumber = 1)
-        //{
-        //    var billTypes = _customerRepo.GetAll(pageSize, pageNumber);
-
-        //    // Instead of 'return View(billTypes);'
-        //    // We manually wrap the ViewResult into a Task to match the method signature
-        //    return Task.FromResult<IActionResult>(View(billTypes.Result));
-        //}
         [HttpGet]
         public IActionResult Index(int pageSize = 10, int pageNumber = 1)
         {
@@ -37,19 +28,30 @@ namespace Inventory.Web.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            ViewBag.customerTypes = new SelectList(_customerTypeRepo.GetALLWithoutPaging(), "CustomerTypeId", "CustomerTypName");
+            ViewBag.customerTypes = new SelectList(
+                _customerTypeRepo.GetALLWithoutPaging(),
+                "CustomerTypeId",
+                "CustomerTypeName");     // ← trainer uses "CustomerTypeName" (not CustomerTypName)
+
             return View();
         }
+
         [HttpPost]
         public IActionResult Create(CreateCustomerViewModel model)
         {
-
             if (ModelState.IsValid)
             {
                 _customerRepo.Add(model);
                 return RedirectToAction("Index");
             }
-            return View();
+
+            ViewBag.customerTypes = new SelectList(
+                _customerTypeRepo.GetALLWithoutPaging(),
+                "CustomerTypeId",
+                "CustomerTypeName",
+                model.CustomerTypeId);     // ← trainer repopulates + passes selected value
+
+            return View(model);            // ← trainer always returns View(model) on failure
         }
         [HttpGet]
         public IActionResult Edit(int id)
