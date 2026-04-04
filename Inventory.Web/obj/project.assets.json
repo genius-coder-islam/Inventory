@@ -3309,16 +3309,6 @@
           "bin/placeholder/Inventory.Repository.dll": {}
         }
       },
-      "Inventory.Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Inventory.Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Inventory.Services.dll": {}
-        }
-      },
       "Inventory.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -8899,11 +8889,6 @@
       "path": "../Inventory.Repository/Inventory.Repository.csproj",
       "msbuildProject": "../Inventory.Repository/Inventory.Repository.csproj"
     },
-    "Inventory.Services/1.0.0": {
-      "type": "project",
-      "path": "../Inventory.Services/Inventory.Services.csproj",
-      "msbuildProject": "../Inventory.Services/Inventory.Services.csproj"
-    },
     "Inventory.Utility/1.0.0": {
       "type": "project",
       "path": "../Inventory.Utility/Inventory.Utility.csproj",
@@ -8919,7 +8904,6 @@
     "net8.0": [
       "Inventory.Models >= 1.0.0",
       "Inventory.Repository >= 1.0.0",
-      "Inventory.Services >= 1.0.0",
       "Inventory.Utility >= 1.0.0",
       "Inventory.ViewModel >= 1.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.23",
@@ -8967,9 +8951,6 @@
             },
             "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj": {
               "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj"
-            },
-            "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Services\\Inventory.Services.csproj": {
-              "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Services\\Inventory.Services.csproj"
             },
             "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj": {
               "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj"

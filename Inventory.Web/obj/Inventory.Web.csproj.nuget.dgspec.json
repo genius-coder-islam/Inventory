@@ -161,71 +161,6 @@
         }
       }
     },
-    "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Services\\Inventory.Services.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Services\\Inventory.Services.csproj",
-        "projectName": "Inventory.Services",
-        "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Services\\Inventory.Services.csproj",
-        "packagesPath": "C:\\Users\\ISLAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Services\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\ISLAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -407,9 +342,6 @@
               },
               "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj": {
                 "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Repository\\Inventory.Repository.csproj"
-              },
-              "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Services\\Inventory.Services.csproj": {
-                "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Services\\Inventory.Services.csproj"
               },
               "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj": {
                 "projectPath": "C:\\Users\\ISLAM\\source\\repos\\Inventory\\Inventory.Utility\\Inventory.Utility.csproj"

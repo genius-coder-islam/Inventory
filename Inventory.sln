@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.Repository", "Inv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.Models", "Inventory.Models\Inventory.Models.csproj", "{74FB0E1C-1705-4A7A-860E-B0CB1295C690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.Services", "Inventory.Services\Inventory.Services.csproj", "{9F0C6934-1E10-446B-B929-D81D31CC4104}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.Utility", "Inventory.Utility\Inventory.Utility.csproj", "{AC84DF72-E540-4B50-B651-E3AEA266BCCE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.ViewModel", "Inventory.ViewModel\Inventory.ViewModel.csproj", "{056EB1FD-C0FA-434B-AF7C-DB3B91853027}"
@@ -33,10 +31,6 @@ Global
 		{74FB0E1C-1705-4A7A-860E-B0CB1295C690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74FB0E1C-1705-4A7A-860E-B0CB1295C690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74FB0E1C-1705-4A7A-860E-B0CB1295C690}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F0C6934-1E10-446B-B929-D81D31CC4104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F0C6934-1E10-446B-B929-D81D31CC4104}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F0C6934-1E10-446B-B929-D81D31CC4104}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F0C6934-1E10-446B-B929-D81D31CC4104}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC84DF72-E540-4B50-B651-E3AEA266BCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC84DF72-E540-4B50-B651-E3AEA266BCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC84DF72-E540-4B50-B651-E3AEA266BCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU

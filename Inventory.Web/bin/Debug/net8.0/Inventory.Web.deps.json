@@ -10,7 +10,6 @@
         "dependencies": {
           "Inventory.Models": "1.0.0",
           "Inventory.Repository": "1.0.0",
-          "Inventory.Services": "1.0.0",
           "Inventory.Utility": "1.0.0",
           "Inventory.ViewModel": "1.0.0",
           "Microsoft.AspNetCore.Identity.UI": "8.0.23",
@@ -2257,14 +2256,6 @@
           }
         }
       },
-      "Inventory.Services/1.0.0": {
-        "runtime": {
-          "Inventory.Services.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Inventory.Utility/1.0.0": {
         "dependencies": {
           "Inventory.Repository": "1.0.0",
@@ -3612,11 +3603,6 @@
       "sha512": ""
     },
     "Inventory.Repository/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Inventory.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
